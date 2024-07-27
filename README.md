@@ -2,17 +2,17 @@
 
 # Tools, Files and Formats
 
-### Use a git repository for collaboration.
+### ☑️ Use a git repository for collaboration. 
 
 - Git is much better at tracking changes than overleaf.
 
 - You can use TexStudio, vim or other editors locally and push you changes to the remote git repository.
 
-### Use a grammar checker.
+### ☑️ Use a grammar checker.
 
 If you are using Texstudio, please follow this:  https://tex.stackexchange.com/a/282571.
 
-### Short Column Width
+### ☑️ Short Column Width 
 
 Keep a line short. I would recommend to break a line at 60. The benefits of doing this are
 
@@ -20,16 +20,16 @@ Keep a line short. I would recommend to break a line at 60. The benefits of doin
 - Better bi-directional mapping between the output pdf file and the latex source.
 - Friendly to the editor. No need to use the editor's wrapping functionality.
 
-### Decompose a single BIG .tex file into multiple .tex files
+### ☑️ Decompose a single BIG .tex file into multiple .tex files
 
 - Friendly to version control system. Easy to diff. Minimize merge conflicts.
 - Better organization of the paper, for example, each section is in its own file.
 
-### Have a main.tex file
+### ☑️ Have a main.tex file
 
 - Easy to identify the entry of the tex project.
 
-### Install Pluverse macro files
+### ☑️ Install Pluverse macro files
 
 - Enter your latex directory, and run the following command
 
@@ -46,7 +46,7 @@ $ ./update-pluverse-macros.sh
 
 # Writing
 
-### Capitalize words in your titles properly.
+### ☑️ Capitalize words in your titles properly.
 
 Use [this website](https://capitalizemytitle.com/style/APA/) to check whether your title conforms. Note that this rule applies to paper titles, subtitles, and all (sub)section titles.
 
@@ -56,20 +56,20 @@ Use [this website](https://capitalizemytitle.com/style/APA/) to check whether yo
 -	Usage: The text inside the braces {} will be emphasized.
 -	Behavior: The \emph command is context-sensitive. If used inside already emphasized text (e.g., inside another \emph), it will typically de-emphasize the text (e.g., change it back to the normal style).
 
-### Use '~' between the words and '\cite', and '\ref'.
+### ☑️ Use '~' between the words and '\cite', and '\ref'.
 
 This allows the citation or the figure label to stay together with the previous word with a whitespace in between.
 
 - `A and B developed a new approach~\cite{paper-id}`
 - `Figure~\ref{figure-label} shows the overall framework.`
 
-### Capitalize Figure and Table in 'Figure~\ref{xxx}' and 'Table~\ref{xxx}'
+### ☑️ Capitalize Figure and Table in 'Figure~\ref{xxx}' and 'Table~\ref{xxx}'
 
 Correct: `In Figure 1, we know ...`
 
 Wrong: `In figure 1, we know ...`
 
-### Label Naming Convention
+### ☑️ Label Naming Convention
 
 * Table: \label{tbl:...}
 * Subtable: \label{subtbl:...}
@@ -81,7 +81,7 @@ Wrong: `In figure 1, we know ...`
 * Algorithm: \label{alg:...}
 * Line: \label{line:...}
 
-### Put captions above tables, and below figures.
+### ☑️ Put captions above tables, and below figures.
 
 This applies to most of the proceeding formats.
 
@@ -111,7 +111,7 @@ Note:
 1. The word immediately preceding the hyphen should be capitalized. For example, it should be `Learning-Based Approach`. An exception is `X-ray`, instead of `X-Ray`.
 
 
-### Always use vector graphs and use the right font in the graphs.
+### ☑️ Always use vector graphs and use the right font in the graphs.
 
 - Try to avoid using `.png`, `.jpg` and `.bmp`, because they look blury when zoomed in.
 
@@ -119,7 +119,7 @@ Note:
 
 - Make sure the font in the figure is the same font.
 
-### Carefully select the color and the markers in the figure.
+### ☑️ Carefully select the color and the markers in the figure.
 
 The color and markers of figures, especially for the line chart and bar chart, should be able to distinguished in black-white printing.
 
@@ -133,7 +133,7 @@ These three websites can help you pick colors:
 
 Remember to pick the color that is colorblindness-friendly and print-friendly.
 
-### The font of the text in figures should be same as the font of main content.
+### ☑️ The font of the text in figures should be same as the font of main content.
 
 Usually it should be Times New Roman.
 
@@ -146,12 +146,12 @@ matplotlib.rcParams['ps.fonttype'] = 42
 ```
 
 
-### The font size of text in figures and table should not be larger than the font size of main content
+### ☑️ The font size of text in figures and table should not be larger than the font size of main content
 
 Be carefully when you use resize.
 
 
-### Use booktab table style.
+### ☑️ Use booktab table style.
 
 For table, you can use this website https://www.tablesgenerator.com/. Now it is more common to use the "booktab table style".
 
@@ -167,20 +167,20 @@ Use `\setlength` and `\arraystretch` to change the horizontal spacing (column se
 ```
 
 
-### Write numbers in words.
+### ☑️ Write numbers in words.
 
 If you use numbers such as `1`, `2`, `100`, and `1000`, you should write `one`, `two`, `one hundred`, and `one thousand`.
 If you use number such as `2021`, it should write it as `2,021`
 
 More information can be found [here](https://www.dcu.ie/sites/default/files/students_learning/docs/WC_Numbers-in-academic-writing.pdf)
 
-### Do not use abbreviations.
+### ☑️ Do not use abbreviations.
 
 Do not use English word abbreviations, such as `2nd`, `no.` and `approx.`. Use the full words instead, such as `second`, `number` and `approximately`. You should also avoid using `they're`, `don't`, `can't`, etc; instead you should use `they are`, `do not`, `cannot`.
 
 Note that you are encouraged to use Latin abbreviations, such as `i.e.`, `e.g.`.
 
-### Use the word "benchmark" correctly.
+### ☑️ Use the word "benchmark" correctly.
 
 A benchmark is a test that measures the performance of hardware or software. For example, in the evaluation of Perses, each subject (e.g., clang-22382) can be considered as a benchmark. A set that includes multiple benchmarks is called a benchmark suite.
 
@@ -236,7 +236,7 @@ Reference: [SPEC CPU2006](https://dl.acm.org/doi/pdf/10.1145/1241601.1241625) an
 - Commonly, we prefer using ratio and %change in our evaluations. %error and %diff is used less frequently as they only apply to specific scenarios.
 - Also see this [link](https://www.mathsisfun.com/data/percentage-difference-vs-error.html)
 
-### Try to use bib files from ACM Digitial Library and IEEE Xplore.
+### ☑️ Try to use bib files from ACM Digitial Library and IEEE Xplore.
 
 Please try to download the paper and bib from ACM Digitial Library and IEEE Xplore.
 
@@ -244,7 +244,7 @@ DBLP is a good source for tracking a person's publication records and download b
 
 Avoid the citation from arxiv, if possible.
 
-### No citations in `abstract`
+### ☑️ No citations in `abstract`
 
 You should not cite any papers in the `Abstract` section.
 
@@ -304,7 +304,7 @@ If you want to use words in a math formula, remember to use \textit to wrap the 
 
 For example, `$time = ComptueTime(t + 1)$` should be written as `$\textit{time} = \textit{ComputeTime}(t + 1)$`
 
-### ACKNOWLEDGMENTS should not be numbered
+### ☑️ ACKNOWLEDGMENTS should not be numbered
 
 ACKNOWLEDGMENTS section shall not have a section number. It should be added using the environment `\begin{ack} \end{ack}` instead of `\section{ack}`
 
