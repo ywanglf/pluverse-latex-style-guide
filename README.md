@@ -188,7 +188,7 @@ Reference: [SPEC CPU2006](https://dl.acm.org/doi/pdf/10.1145/1241601.1241625) an
 
 ### Evaluation Terminology
 
-- Ratio
+- ☑️ Ratio
     - A ratio says how much of one thing there is compared to another thing.
     It shows that the number of times one value contains or is contained within the other.
     - Formula:
@@ -228,7 +228,7 @@ Reference: [SPEC CPU2006](https://dl.acm.org/doi/pdf/10.1145/1241601.1241625) an
     - Acronym: %Diff or %Difference
     - [link](https://www.mathsisfun.com/percentage-difference.html)
 
-##### Compare & Contrast
+##### ☑️ Compare & Contrast
 - Ratio: how much of one value is compared to another value
 - Percentage change: compare an Old Value to a New Value
 - Percentage error: compare an Approximate Value to an Exact Value
@@ -248,7 +248,7 @@ Avoid the citation from arxiv, if possible.
 
 You should not cite any papers in the `Abstract` section.
 
-### Use macros for constants
+### ☑️ Use macros for constants
 
 If you have some numbers, or string literals (e.g., functions) used throughout your paper, create a macro, and use that macro instead.
 
@@ -310,7 +310,7 @@ ACKNOWLEDGMENTS section shall not have a section number. It should be added usin
 
 Please note it is ACKNOWLEDGMENTS, not ACKNOWLEDG**E**MENTS.
 
-### Do not start a subsection title right after a section title.
+### ☑️ Do not start a subsection title right after a section title.
 
 
 ```tex
@@ -323,7 +323,7 @@ ADD SOMETHING HERE!
 
 TBD: need to have an example here.
 
-### Use cleveref
+### ☑️ Use cleveref
 
 Cleveref automatically determine the type of cross-reference and fill in the appropate
 cross-reference (Figure, Table, Section, etc.).
@@ -365,7 +365,7 @@ When referencing labels, instead of using \ref, use \cref.
 
 # Tricks
 
-### Use \SetKwFunction inside a caption of an algorithm2e environment
+### ☑️ Use \SetKwFunction inside a caption of an algorithm2e environment
 
 Use `\protect` before the function macro, e.g., `\caption{\protect\Fn my function}`
 
